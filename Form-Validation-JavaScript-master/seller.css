@@ -1,0 +1,127 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center align content */
+    height: 100vh; /* Set height to 100% of viewport height */
+}
+
+.btn-group {
+    
+    text-align: center; /* Center align text within btn-group */
+    height: 500px;
+    width: 1000px;
+    padding:20px 20px;
+}
+a{
+  text-decoration: none;
+}
+.btn:hover{
+  color: white;
+  background: black;
+  transform: scale(1.2);
+  transition: all ease 0.5s;
+}
+
+.btn-group .btn {
+    margin: 5px; /* Add margin between buttons */
+    padding:20px 20px;
+
+}
+.btn btn-outline-primary{
+  height: 500px;
+    width: 500px;
+}
+
+header {
+    background-color: #002a54ef;
+    color: #fff;
+    padding: 25px 20px 25px 50px;
+    text-align: center;
+    position: relative;
+  }
+  
+  nav {
+    background-color: rgba(40, 39, 39, 0.509);
+    padding: 10px;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .nav-class {
+    margin-left: 20px;
+  }
+  
+  .nav-class a:hover {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    background-color: #02356cc1;
+    padding: 8px 12px;
+    border-radius: 10px;
+  }
+
+  .footer{
+    text-decoration-line: none;
+  }
+  
+  /* Footer */
+  .footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #37475a;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    height: 60px;
+  }
+  
+  .footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+    background: #232f3e;
+  }
+  
+  .footer-items h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px 0 10px 0;
+  }
+  
+  .footer-items ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .footer-items li a {
+    color: #ddd;
+    font-size: 0.875rem;
+  }
+  
+  .footer-items li a:hover {
+    text-decoration: underline;
+  }
+
+  
